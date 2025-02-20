@@ -9,7 +9,7 @@
 namespace
 {
 	// テスト用の画像ファイルパス
-	const std::string image_file_path = "Data/Image/UI/Test.pn";
+	const std::string image_file_path = "Data/Image/UI/Test.png";
 }
 
 namespace Scene

@@ -54,7 +54,7 @@ namespace Resource
 			// ファイルパスが間違っている場合は-1が返される為、
 			// 本来の使用用途は違うがこの関数で確認する
 			int result = CheckHandleASyncLoad(image.second->GetHandle());
-			assert(result != -1);
+			assert(result != -1 && "画像の読み込みに失敗しました");
 		}
 	}
 
